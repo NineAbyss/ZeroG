@@ -8,7 +8,7 @@
 </h5>
 
 This is the official implementation of the following paper: 
-> **GLBench: ZeroG: Investigating Cross-dataset Zero-shot Transferability in Graphs**
+> **GLBench: ZeroG: Investigating Cross-dataset Zero-shot Transferability in Graphs** [[Paper](https://arxiv.org/abs/2402.11235)]
 > 
 > Yuhan Li, Peisong Wang, Zhixun Li, Jeffrey Xu Yu, Jia Li
 
