@@ -597,7 +597,7 @@ def load_node_dataset(root, name, args):
 
         # dataset = CitationDataset(root, name, args)
 
-        data = torch.load(f"/hpc2hdd/home/yli258/datasets/{name.lower()}.pt")
+        data = torch.load(f"datasets/{name.lower()}.pt")
         data.label_text = data.label_name
         dataset = DataWrapper(data, args)
         if name in ['Cora', 'Pubmed', 'Citeseer']:
