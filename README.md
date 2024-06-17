@@ -13,7 +13,7 @@ This is the official implementation of the following paper:
 > Yuhan Li, Peisong Wang, Zhixun Li, Jeffrey Xu Yu, Jia Li
 
 
-<p align="center"><img width="75%" src="images/ZeroG.png" /></p>
+<p align="center"><img width="75%" src="ZeroG.png" /></p>
 <p align="center"><em>The framework of ZeroG.</em></p>
 
 # Environment Setup
