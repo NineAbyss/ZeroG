@@ -24,7 +24,10 @@ pip install -r requirements.txt
 ```
 to install python packages.
 
-The codes are in progress.
+# Run ZeroG
+```
+bash run.sh
+```
 
 # Datasets
 Datasets tech.pt and home.pt are availabel in this [link](https://drive.google.com/drive/folders/1kifRUaZ9JzcjByj47FeANfXEeEZd4sJk), while other datasets in ZeroG are available in this [link](https://drive.google.com/drive/folders/1WfBIPA3dMd8qQZ6QlQRg9MIFGMwnPdFj?usp=drive_link).
