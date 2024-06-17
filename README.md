@@ -24,4 +24,15 @@ pip install -r requirements.txt
 ```
 to install python packages.
 
-We are still preparing the codes...
+The codes are in progress.
+
+
+<br> **📑 If you find our projects helpful to your research, please consider citing:** <br>
+```
+@article{li2024zerog,
+  title={ZeroG: Investigating Cross-dataset Zero-shot Transferability in Graphs},
+  author={Li, Yuhan and Wang, Peisong and Li, Zhixun and Yu, Jeffrey Xu and Li, Jia},
+  journal={arXiv preprint arXiv:2402.11235},
+  year={2024}
+}
+```
