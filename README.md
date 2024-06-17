@@ -27,7 +27,7 @@ to install python packages.
 The codes are in progress.
 
 # Datasets
-All datasets in ZeroG are available in this [link](https://drive.google.com/drive/folders/1WfBIPA3dMd8qQZ6QlQRg9MIFGMwnPdFj?usp=drive_link).
+Datasets tech.pt and home.pt are availabel in this [link](https://drive.google.com/drive/folders/1kifRUaZ9JzcjByj47FeANfXEeEZd4sJk), while other datasets in ZeroG are available in this [link](https://drive.google.com/drive/folders/1WfBIPA3dMd8qQZ6QlQRg9MIFGMwnPdFj?usp=drive_link).
 
 <br> **📑 If you find our projects helpful to your research, please consider citing:** <br>
 ```
