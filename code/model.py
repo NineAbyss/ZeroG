@@ -284,11 +284,8 @@ class TextModel(nn.Module):
             self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
             self.textmodel = BertModel.from_pretrained('bert-base-uncased')
 
-# Load model directly
 
         if self.encoder == 'Roberta' or  self.encoder == 'roberta' :
-            # self.tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
-            # self.textmodel = RobertaModel.from_pretrained('roberta-base')
             self.tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
             self.textmodel = RobertaModel.from_pretrained('roberta-base')
         if self.encoder == 'SentenceBert':
@@ -304,21 +301,13 @@ class TextModel(nn.Module):
             self.tokenizer = T5Tokenizer.from_pretrained("t5-large")
             self.textmodel = T5EncoderModel.from_pretrained("t5-large")
        
-            # self.target_modules = ["q", "v"]
 
-        # self.dropout = nn.Dropout(0.1)
-        # self.fc = nn.Linear(self.encoder.hidden_size, 1)
     
-    def forward(self, input):
-        # text_embedding=[]
-        
+    def forward(self, input):        
         inputs = self.tokenizer(input, return_tensors='pt', truncation=True, padding=True).to(self.textmodel.device)
-        # outputs = self.encoder(input_ids=input_ids, attention_mask=attention_mask)
-        # cls_embedding = outputs.pooler_output
-        # cls_embedding = self.dropout(cls_embedding)
+
         with torch.no_grad():
             outputs = self.textmodel(**inputs)
 
         text_embedding = outputs[0][:,0,:].squeeze()
-            # text_embedding = self.encoder(input)
         return text_embedding
